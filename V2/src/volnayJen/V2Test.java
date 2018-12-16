@@ -1,22 +1,21 @@
 package volnayJen;
 
+ 
+
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.BeforeTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
-public class VolnayTesNG {
+public class V2Test {
 	
  
 		public static WebDriver driver;
 		
 	  @Test(dataProvider = "userPassword")
 	  public void f(String n, String s) throws InterruptedException {
-		  System.out.println(" AVE MARIA");
-		  System.out.println(" AVE MARIA  ");
-		  System.out.println(" AVE MARIA");
-
+		  
 		  driver.findElement(By.id("email")).clear();
 		  driver.findElement(By.id("password")).clear();
 		  driver.findElement(By.id("email")).sendKeys(n);
