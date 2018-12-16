@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10901" started-at="2018-12-16T22:47:38Z" finished-at="2018-12-16T22:47:49Z">
+  <suite name="Default suite" duration-ms="9826" started-at="2018-12-16T23:13:33Z" finished-at="2018-12-16T23:13:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10901" started-at="2018-12-16T22:47:38Z" finished-at="2018-12-16T22:47:49Z">
+    <test name="Default test" duration-ms="9826" started-at="2018-12-16T23:13:33Z" finished-at="2018-12-16T23:13:43Z">
       <class name="volnayJen.V2Test">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:volnayJen.V2Test@1f57539]" name="beforeTest" is-config="true" duration-ms="6775" started-at="2018-12-16T22:47:38Z" finished-at="2018-12-16T22:47:45Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:volnayJen.V2Test@1f57539]" name="beforeTest" is-config="true" duration-ms="5924" started-at="2018-12-16T23:13:33Z" finished-at="2018-12-16T23:13:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:volnayJen.V2Test@1f57539]" name="f" duration-ms="4063" started-at="2018-12-16T22:47:45Z" data-provider="userPassword" finished-at="2018-12-16T22:47:49Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:volnayJen.V2Test@1f57539]" name="f" duration-ms="3838" started-at="2018-12-16T23:13:39Z" data-provider="userPassword" finished-at="2018-12-16T23:13:43Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:volnayJen.V2Test@1f57539]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-12-16T22:47:49Z" finished-at="2018-12-16T22:47:49Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:volnayJen.V2Test@1f57539]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-12-16T23:13:43Z" finished-at="2018-12-16T23:13:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
