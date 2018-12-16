@@ -14,6 +14,9 @@ public class VolnayTesNG {
 	  @Test(dataProvider = "userPassword")
 	  public void f(String n, String s) throws InterruptedException {
 		  System.out.println(" AVE MARIA");
+		  System.out.println(" AVE MARIA");
+		  System.out.println(" AVE MARIA");
+
 		  driver.findElement(By.id("email")).clear();
 		  driver.findElement(By.id("password")).clear();
 		  driver.findElement(By.id("email")).sendKeys(n);
