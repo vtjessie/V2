@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9882" started-at="2018-12-16T04:32:17Z" finished-at="2018-12-16T04:32:27Z">
+  <suite name="Default suite" duration-ms="10901" started-at="2018-12-16T22:47:38Z" finished-at="2018-12-16T22:47:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9882" started-at="2018-12-16T04:32:17Z" finished-at="2018-12-16T04:32:27Z">
-      <class name="volnayJen.VolnayTesNG">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:volnayJen.VolnayTesNG@1f57539]" name="beforeTest" is-config="true" duration-ms="5929" started-at="2018-12-16T04:32:17Z" finished-at="2018-12-16T04:32:23Z">
+    <test name="Default test" duration-ms="10901" started-at="2018-12-16T22:47:38Z" finished-at="2018-12-16T22:47:49Z">
+      <class name="volnayJen.V2Test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:volnayJen.V2Test@1f57539]" name="beforeTest" is-config="true" duration-ms="6775" started-at="2018-12-16T22:47:38Z" finished-at="2018-12-16T22:47:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:volnayJen.VolnayTesNG@1f57539]" name="f" duration-ms="3889" started-at="2018-12-16T04:32:23Z" data-provider="userPassword" finished-at="2018-12-16T04:32:27Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:volnayJen.V2Test@1f57539]" name="f" duration-ms="4063" started-at="2018-12-16T22:47:45Z" data-provider="userPassword" finished-at="2018-12-16T22:47:49Z">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:volnayJen.VolnayTesNG@1f57539]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-12-16T04:32:27Z" finished-at="2018-12-16T04:32:27Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:volnayJen.V2Test@1f57539]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-12-16T22:47:49Z" finished-at="2018-12-16T22:47:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- volnayJen.VolnayTesNG -->
+      </class> <!-- volnayJen.V2Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
