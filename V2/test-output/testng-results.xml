@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7260" started-at="2018-12-16T04:07:54Z" finished-at="2018-12-16T04:08:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7260" started-at="2018-12-16T04:07:54Z" finished-at="2018-12-16T04:08:02Z">
+      <class name="volnayJen.VolnayTesNG">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:volnayJen.VolnayTesNG@1b68ddbd]" name="beforeTest" is-config="true" duration-ms="3553" started-at="2018-12-16T04:07:54Z" finished-at="2018-12-16T04:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:volnayJen.VolnayTesNG@1b68ddbd]" name="f" duration-ms="3685" started-at="2018-12-16T04:07:58Z" data-provider="userPassword" finished-at="2018-12-16T04:08:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vt.jessie@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Divine123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:volnayJen.VolnayTesNG@1b68ddbd]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-12-16T04:08:02Z" finished-at="2018-12-16T04:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- volnayJen.VolnayTesNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
